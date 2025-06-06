@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live AI Tutor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Bolt Badge in Top-Right Corner -->
+  <div class="bolt-badge-container">
+    <a href="https://www.bolt.com" target="_blank">
+      <img src="https://www.bolt.com/assets/images/lightning-yellow.svg" alt="Built with Bolt" class="bolt-badge" />
+    </a>
+  </div>
+
+  <div class="app-container">
+    <h1>Live AI Tutor</h1>
+    <p class="prompt-example">Example: I'm Alex, teach me rocket science in French. I'm in grade 5.</p>
+    <form id="lesson-form">
+      <input type="text" id="user-prompt" placeholder="Type your request here..." required />
+      <button type="submit">Start Lesson</button>
+    </form>
+
+    <div id="lesson-output" class="hidden">
+      <div id="video-container">
+        <video id="tavus-video" controls autoplay></video>
+      </div>
+      <div id="virtual-board"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
