@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  color: #102a43;
+}
+
+.bolt-badge-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bolt-badge {
+  height: 30px;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 100px auto 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.prompt-example {
+  text-align: center;
+  font-style: italic;
+  color: #627d98;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #bcccdc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c60b3;
+}
+
+#lesson-output {
+  margin-top: 40px;
+}
+
+#video-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#tavus-video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#virtual-board {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 200px;
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+.highlight {
+  background-color: #ffe066;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
